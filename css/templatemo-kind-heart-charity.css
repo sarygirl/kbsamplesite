@@ -1097,8 +1097,8 @@ blockquote::before {
   border: 0;
   color: var(--p-color);
   margin-bottom: 24px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: none;
 }
 
