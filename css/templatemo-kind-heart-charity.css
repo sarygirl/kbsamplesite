@@ -1097,8 +1097,8 @@ blockquote::before {
   border: 0;
   color: var(--p-color);
   margin-bottom: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   outline: none;
 }
 
@@ -1108,11 +1108,11 @@ blockquote::before {
 }
 
 .custom-form label {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .custom-form .form-check-group {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .donate-form .form-check-group-donation-frequency {
