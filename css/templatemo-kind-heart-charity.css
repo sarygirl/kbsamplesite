@@ -771,7 +771,7 @@ strong {
 }
 
 .donate-form {
-  background: var(--white-color);
+  background: rgba(var(--white-color),0.8);
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
