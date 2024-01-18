@@ -912,8 +912,15 @@ https://templatemo.com/tm-581-kind-heart-charity
                             </div>
                         </div>
 
+			<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title> Create Working Contact form using html css javascript</title>
+				<link rel="stylesheet" href="templatemo-kind-heart-charity.css">
+			</head>
+
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form contact-form" action="#" method="post" role="form">
+                            <form class="custom-form contact-form" action="#" method="post" role="form" onsubmit="sendEmail(); reset(); return false;">
                                 <h2>Contact form</h2>
 
                                 <p class="mb-1">Or, you can just send an email:
@@ -933,6 +940,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 
                                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
 
+				<input type="text" name="subject" id="subject" class="form-control" placeholder="Inquiry" required>
                                 <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
 
                                 <button type="submit" class="form-control">Send Message</button>
@@ -944,6 +952,27 @@ https://templatemo.com/tm-581-kind-heart-charity
             </section>
         </main>
 
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+<script src="script1.js"></script>
+						
+<script>
+	var btn = document.getElementById('btn');
+	btn.addEventListener('click', function(e){
+	e.preventDefault()
+	Email.send({
+	Host : "smtp.elasticemail.com",
+	Username : "phailee2017@gmail.com",
+	Password : "7E3EF4ED375C334016CEDA1CD187B35585F9",
+	To : 'saryannescurel@gmail.com',
+	From : 'phailee2017@gmail.com',
+	Subject : "This is the subject",
+	Body : "And this is the body"
+		}).then(
+		message => alert(message)
+		);
+	})
+</script>
+			    
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
