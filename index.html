@@ -536,6 +536,27 @@ https://templatemo.com/tm-581-kind-heart-charity
                             </form>
                         </div>
 
+			    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+				<script src="script1.js"></script>
+										
+				<script>
+					var btn = document.getElementById('btn');
+					btn.addEventListener('click', function(e){
+					e.preventDefault()
+					Email.send({
+					Host : "smtp.elasticemail.com",
+					Username : "phailee2017@gmail.com",
+					Password : "7E3EF4ED375C334016CEDA1CD187B35585F9",
+					To : 'saryannescurel@gmail.com',
+					From : 'phailee2017@gmail.com',
+					Subject : "This is the subject",
+					Body : "And this is the body"
+						}).then(
+						message => alert(message)
+						);
+					})
+				</script>
+
                         <div class="col-lg-6 col-12">
                             <img src="images/Volunteer.jpg" class="volunteer-image img-fluid" alt="">
 
