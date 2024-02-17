@@ -188,46 +188,105 @@ https://templatemo.com/tm-581-kind-heart-charity
                 </div>
             </section>
 
-		<body style="background-color:black;">
-			<h3> Children Education</h3>
-		</body>
-			<style>
+		<style>
+				div.gallery {
+				  border: 1px solid #ccc;
+				}
+
+				div.gallery:hover {
+				  border: 1px solid #777;
+				}
+
+				div.gallery img {
+				  width: 100%;
+				  height: auto;
+				}
+
+				div.desc {
+				  padding: 15px;
+				  text-align: center;
+				}
+
 				* {
 				  box-sizing: border-box;
 				}
 
-				/* Create three equal columns that floats next to each other */
-				.column {
+				.responsive {
+				  padding: 0 6px;
 				  float: left;
-				  width: 33.33%;
-				  padding: 10px;
-				  height: 300px; /* Should be removed. Only for demonstration */
+				  width: 24.99999%;
 				}
 
-				/* Clear floats after the columns */
-				.row:after {
+				@media only screen and (max-width: 700px) {
+				  .responsive {
+					width: 49.99999%;
+					margin: 6px 0;
+				  }
+				}
+
+				@media only screen and (max-width: 500px) {
+				  .responsive {
+					width: 100%;
+				  }
+				}
+
+				.clearfix:after {
 				  content: "";
 				  display: table;
 				  clear: both;
 				}
 				</style>
+				</head>
 				<body>
 
-				<div class="row">
-				  <div class="column" style="background-color:#fff;">
-					<h3 style="color:black;">Year 2018</h3>
-					<p>The 2018 Miss Scuba Philippines team joined our our KB volunteers this past weekend for week 11 of our Sunday school program at the Malate fire station. Thank you Miss Cindy, all of the Miss Scuba girls and the MSP team for bringing shoes for the kids and feeding everyone pizza from Pedrico’s. And as always; Thank you to all of the donors and volunteers for your continued support for KB and the kids</p>
-				  </div>
-				  <div class="column" style="background-color:#fff;">
-					<h3 style="color:black;">Year 2016</h3>
-					<p>Week 12 of our Sunday school program is officially in the books. We distributed the basics of toothpaste, shampoo, soap and the kids had their usual tutorial and a special lunch. We also celebrated the birthday of one of our newest friends, Miss Karren Arias, 2017 Miss Scuba Philippines 2nd runner up. Thank you Miss Karren coming and spending your birthday with the kids. Thank you to all of the donors and volunteers for your continued support for KB and the kids and making all of this possible</p>
-				  </div>
-				  <div class="column" style="background-color:#fff;">
-					<h3 style="color:black;">Year 2017</h3>
-					<p>Some text..Photos from week 13 of our educational program for the kids. Thank you to everyone for your continued support for KB and the kids.</p>
+				<h2>Children's Education</h2>
+
+				<h4>Join us in empowering the young minds of street children through education. Our dedicated volunteer teachers are committed to teaching basic writing, reading, counting, and art to children who lack access to formal education.</h4>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="images\2018\1.jpg">
+					  <img src="images\2018\1.jpg" alt="One" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
 				  </div>
 				</div>
+
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="images\2018\2.jpg">
+					  <img src="images\2018\2.jpg" alt="Forest" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="images\2018\3.jpg">
+					  <img src="images\2018\3.jpg" alt="Northern Lights" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" href="images\2018\4.jpg">
+					  <img src="images\2018\4.jpg" alt="Mountains" width="600" height="400">
+					</a>
+					<div class="desc">Add a description of the image here</div>
+				  </div>
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div style="padding:6px;">
+				  <p>Photos from week 13 of our educational program for the kids. Thank you to everyone for your continued support for KB and the kids</p>
+				</div>
 				</body>
+
 		
         <footer class="site-footer">
             <div class="container">
